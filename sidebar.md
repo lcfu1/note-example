@@ -1,3 +1,3 @@
-- [首页](/)
+- [docs]
   - [first](docs/first)
   - [second](docs/second)
