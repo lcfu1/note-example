@@ -1,3 +1,3 @@
-- [docs]
+- docs
   - [first](docs/first)
   - [second](docs/second)
