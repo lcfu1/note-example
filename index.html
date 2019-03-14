@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	    <title>Example</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta charset="UTF-8">
@@ -15,19 +16,20 @@
 				name: 'example',
 				homepage: 'README.md',
 				loadSidebar:'sidebar.md',
+				autoHeader:true,
 				alias:{
 					'/.*/sidebar.md':'sidebar.md'
 				},
-				subMaxLevel:2,
+				subMaxLevel:3,
 				search: {
 					noData: {
-						'/': '没有结果!'
+						'/' : '没有结果!'
 					},
-					paths: ['/'],
+					paths: 'auto',
 					placeholder: {
 						'/': '搜索'
 					}
-				},
+				}
 			}
 		</script>
 		<script src="https://lcfu1.github.io/note-theme/js/docsify.min.js">
